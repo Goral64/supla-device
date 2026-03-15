@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['rain_0',['Rain',['../classSupla_1_1Sensor_1_1Rain.html',1,'Supla::Sensor']]],
+  ['registeredcmdactionmap_1',['RegisteredCmdActionMap',['../structSupla_1_1Html_1_1RegisteredCmdActionMap.html',1,'Supla::Html']]],
+  ['relay_2',['Relay',['../classRelay.html',1,'Relay'],['../classSupla_1_1Control_1_1Relay.html',1,'Supla::Control::Relay']]],
+  ['relayhvacaggregator_3',['RelayHvacAggregator',['../classRelayHvacAggregator.html',1,'RelayHvacAggregator'],['../classSupla_1_1Control_1_1RelayHvacAggregator.html',1,'Supla::Control::RelayHvacAggregator']]],
+  ['relayparameters_4',['RelayParameters',['../classRelayParameters.html',1,'RelayParameters'],['../classSupla_1_1Html_1_1RelayParameters.html',1,'Supla::Html::RelayParameters']]],
+  ['remotedeviceconfig_5',['RemoteDeviceConfig',['../classRemoteDeviceConfig.html',1,'RemoteDeviceConfig'],['../classSupla_1_1Device_1_1RemoteDeviceConfig.html',1,'Supla::Device::RemoteDeviceConfig']]],
+  ['remoteoutputinterface_6',['RemoteOutputInterface',['../classRemoteOutputInterface.html',1,'RemoteOutputInterface'],['../classSupla_1_1Control_1_1RemoteOutputInterface.html',1,'Supla::Control::RemoteOutputInterface'],['../classSupla_1_1Control_1_1RemoteOutputInterface.html#ae6dbfc3de7c7cf8a1d55e3ab78952155',1,'Supla::Control::RemoteOutputInterface::RemoteOutputInterface()'],['../classRemoteOutputInterface.html#ae6dbfc3de7c7cf8a1d55e3ab78952155',1,'RemoteOutputInterface::RemoteOutputInterface()']]],
+  ['removesensor_7',['removeSensor',['../classSupla_1_1Control_1_1ValveBase.html#a1219856ed53ce43581a10a5853110fab',1,'Supla::Control::ValveBase::removeSensor()'],['../classValveBase.html#a1219856ed53ce43581a10a5853110fab',1,'ValveBase::removeSensor()']]],
+  ['removesensordata_8',['removeSensorData',['../classSupla_1_1Sensor_1_1Container.html#ac97e08bfea047cd89d7af8ea2fe274fc',1,'Supla::Sensor::Container::removeSensorData()'],['../classContainer.html#ac97e08bfea047cd89d7af8ea2fe274fc',1,'Container::removeSensorData()']]],
+  ['rgbbase_9',['RGBBase',['../classSupla_1_1Control_1_1RGBBase.html',1,'Supla::Control']]],
+  ['rgbcctbase_10',['RGBCCTBase',['../classSupla_1_1Control_1_1RGBCCTBase.html',1,'Supla::Control::RGBCCTBase'],['../classSupla_1_1Control_1_1RGBCCTBase.html#a4ec5a24817eebee8e74f8cb32e284f63',1,'Supla::Control::RGBCCTBase::RGBCCTBase()']]],
+  ['rgbleds_11',['RGBLeds',['../classSupla_1_1Control_1_1RGBLeds.html',1,'Supla::Control']]],
+  ['rgbwbase_12',['RGBWBase',['../classSupla_1_1Control_1_1RGBWBase.html',1,'Supla::Control']]],
+  ['rgbwbuttonparameters_13',['RgbwButtonParameters',['../classRgbwButtonParameters.html',1,'RgbwButtonParameters'],['../classSupla_1_1Html_1_1RgbwButtonParameters.html',1,'Supla::Html::RgbwButtonParameters']]],
+  ['rgbwleds_14',['RGBWLeds',['../classSupla_1_1Control_1_1RGBWLeds.html',1,'Supla::Control']]],
+  ['rollershutter_15',['RollerShutter',['../classSupla_1_1Control_1_1RollerShutter.html',1,'Supla::Control::RollerShutter'],['../classSupla_1_1Control_1_1RollerShutter.html#acba5d1015d5783ba6c55068d6df5fa36',1,'Supla::Control::RollerShutter::RollerShutter(Supla::Io::Base *io, int pinUp, int pinDown, bool highIsOn=true, bool tiltFunctionsEnabled=false)'],['../classSupla_1_1Control_1_1RollerShutter.html#a53615c057896d3c56832c8e6fdc91496',1,'Supla::Control::RollerShutter::RollerShutter(int pinUp=-1, int pinDown=-1, bool highIsOn=true, bool tiltFunctionsEnabled=false)']]],
+  ['rollershutterconfig_16',['RollerShutterConfig',['../structSupla_1_1Control_1_1RollerShutterConfig.html',1,'Supla::Control']]],
+  ['rollershutterinterface_17',['RollerShutterInterface',['../classRollerShutterInterface.html',1,'RollerShutterInterface'],['../classSupla_1_1Control_1_1RollerShutterInterface.html',1,'Supla::Control::RollerShutterInterface'],['../classSupla_1_1Control_1_1RollerShutterInterface.html#a5119c429201cf1df90b89cb52bb5e532',1,'Supla::Control::RollerShutterInterface::RollerShutterInterface()'],['../classRollerShutterInterface.html#a5119c429201cf1df90b89cb52bb5e532',1,'RollerShutterInterface::RollerShutterInterface()']]],
+  ['rollershutterparameters_18',['RollerShutterParameters',['../classRollerShutterParameters.html',1,'RollerShutterParameters'],['../classSupla_1_1Html_1_1RollerShutterParameters.html',1,'Supla::Html::RollerShutterParameters']]],
+  ['rollershutterstatedata_19',['RollerShutterStateData',['../structRollerShutterStateData.html',1,'']]],
+  ['rollershutterwithtiltstatedata_20',['RollerShutterWithTiltStateData',['../structRollerShutterWithTiltStateData.html',1,'']]],
+  ['rsaverificator_21',['RsaVerificator',['../classSupla_1_1RsaVerificator.html',1,'Supla']]],
+  ['rsfbvalue_22',['RsFbValue',['../unionRsFbValue.html',1,'']]]
+];
