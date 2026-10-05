@@ -1,9 +1,10 @@
 <map id="Supla::Control::PinStatusLed" name="Supla::Control::PinStatusLed">
-<area shape="rect" id="Node000001" title=" " alt="" coords="67,140,254,166"/>
-<area shape="rect" id="Node000002" href="$classSupla_1_1Element.html" title="Base class for all elements of SuplaDevice." alt="" coords="5,14,113,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,50,153,138,148,141,76,54"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="129,15,136,20,139,27,131,38,114,42,112,37,129,33,134,27,132,23,126,20"/>
-<area shape="rect" id="Node000003" href="$classSupla_1_1Io_1_1Base.html" title=" " alt="" coords="209,14,317,40"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="246,53,172,141,168,138,242,50"/>
-<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="333,15,340,20,343,27,335,38,318,42,316,37,333,33,338,27,336,23,330,20"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="63,202,250,228"/>
+<area shape="rect" id="Node000002" href="$classSupla_1_1Element.html" title="Base class for all elements of SuplaDevice." alt="" coords="5,96,113,122"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,131,147,200,143,204,78,135"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="130,100,139,109,131,117,113,120,113,115,129,113,134,109,127,105"/>
+<area shape="rect" id="Node000003" href="$structSupla_1_1Io_1_1IoPin.html" title=" " alt="" coords="201,96,309,122"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="235,135,169,204,166,200,232,131"/>
+<area shape="rect" id="Node000004" href="$classSupla_1_1Io_1_1Base.html" title=" " alt="" coords="201,5,309,31"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="258,46,258,96,252,96,252,46"/>
 </map>
