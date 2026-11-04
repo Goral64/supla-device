@@ -519,6 +519,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clearLocalConfigChang
 <tr class="memitem:af3289ce392603b5b9db8ad414e2d17ab inherit pro_methods_classSupla_1_1ElementWithChannelActions" id="r_af3289ce392603b5b9db8ad414e2d17ab"><td class="memItemLeft" align="right" valign="top">
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>getUsedLocalConfigTypes</b> () const</td></tr>
 <tr class="separator:af3289ce392603b5b9db8ad414e2d17ab inherit pro_methods_classSupla_1_1ElementWithChannelActions"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ed415b74ed5686ec0c075e66e3c528a inherit pro_methods_classSupla_1_1ElementWithChannelActions" id="r_a5ed415b74ed5686ec0c075e66e3c528a"><td class="memItemLeft" align="right" valign="top">
+ChannelConfigState&#160;</td><td class="memItemRight" valign="bottom"><b>getChannelConfigState</b> () const</td></tr>
+<tr class="separator:a5ed415b74ed5686ec0c075e66e3c528a inherit pro_methods_classSupla_1_1ElementWithChannelActions"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a395ff7978f9a6b0821a2cbd72d18141b inherit pro_methods_classSupla_1_1ElementWithChannelActions" id="r_a395ff7978f9a6b0821a2cbd72d18141b"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setChannelConfigState</b> (ChannelConfigState state)</td></tr>
+<tr class="separator:a395ff7978f9a6b0821a2cbd72d18141b inherit pro_methods_classSupla_1_1ElementWithChannelActions"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac302ea7472f046c65f2e220493409fc7 inherit pro_methods_classSupla_1_1ElementWithChannelActions" id="r_ac302ea7472f046c65f2e220493409fc7"><td class="memItemLeft" align="right" valign="top">
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>finishChannelConfig</b> (<a class="el" href="structTSD__ChannelConfig.html">TSD_ChannelConfig</a> *result, Supla::ApplyConfigResult applyResult, bool local)</td></tr>
+<tr class="separator:ac302ea7472f046c65f2e220493409fc7 inherit pro_methods_classSupla_1_1ElementWithChannelActions"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classSupla_1_1Sensor_1_1Thermometer"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classSupla_1_1Sensor_1_1Thermometer')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classSupla_1_1Sensor_1_1Thermometer.html">Supla::Sensor::Thermometer</a></td></tr>
 <tr class="memitem:ab8cf129d85a354748f315cb5bf5d351f inherit pro_attribs_classSupla_1_1Sensor_1_1Thermometer" id="r_ab8cf129d85a354748f315cb5bf5d351f"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="classSupla_1_1Sensor_1_1ThermometerDriver.html">ThermometerDriver</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>driver</b> = nullptr</td></tr>
@@ -551,9 +560,9 @@ unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>ownedChannel
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>ownsChannel</b> = false</td></tr>
 <tr class="separator:a0deba63008c7f02b0457b0ab181e0175 inherit pro_attribs_classSupla_1_1ChannelElement"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classSupla_1_1ElementWithChannelActions"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classSupla_1_1ElementWithChannelActions')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classSupla_1_1ElementWithChannelActions.html">Supla::ElementWithChannelActions</a></td></tr>
-<tr class="memitem:ab6817d39e6708f6b5338ea0309764145 inherit pro_attribs_classSupla_1_1ElementWithChannelActions" id="r_ab6817d39e6708f6b5338ea0309764145"><td class="memItemLeft" align="right" valign="top">
-ChannelConfigState&#160;</td><td class="memItemRight" valign="bottom"><b>channelConfigState</b>: 4</td></tr>
-<tr class="separator:ab6817d39e6708f6b5338ea0309764145 inherit pro_attribs_classSupla_1_1ElementWithChannelActions"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafec9579f4c2ec5e9d225e1048211171 inherit pro_attribs_classSupla_1_1ElementWithChannelActions" id="r_aafec9579f4c2ec5e9d225e1048211171"><td class="memItemLeft" align="right" valign="top">
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>channelConfigState</b>: 4</td></tr>
+<tr class="separator:aafec9579f4c2ec5e9d225e1048211171 inherit pro_attribs_classSupla_1_1ElementWithChannelActions"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a246335827d697dd0d537a3a5decd292a inherit pro_attribs_classSupla_1_1ElementWithChannelActions" id="r_a246335827d697dd0d537a3a5decd292a"><td class="memItemLeft" align="right" valign="top">
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>setChannelConfigAttempts</b>: 2</td></tr>
 <tr class="separator:a246335827d697dd0d537a3a5decd292a inherit pro_attribs_classSupla_1_1ElementWithChannelActions"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -563,6 +572,15 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>configFinishedRece
 <tr class="memitem:afecc9f2a1c66fa5ed394dced4904637e inherit pro_attribs_classSupla_1_1ElementWithChannelActions" id="r_afecc9f2a1c66fa5ed394dced4904637e"><td class="memItemLeft" align="right" valign="top">
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved</b>: 1</td></tr>
 <tr class="separator:afecc9f2a1c66fa5ed394dced4904637e inherit pro_attribs_classSupla_1_1ElementWithChannelActions"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52dd165a266dd4312c94f1eb40168391 inherit pro_attribs_classSupla_1_1ElementWithChannelActions" id="r_a52dd165a266dd4312c94f1eb40168391"><td class="memItemLeft" align="right" valign="top">
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>weeklyConfigFailures</b>: 2</td></tr>
+<tr class="separator:a52dd165a266dd4312c94f1eb40168391 inherit pro_attribs_classSupla_1_1ElementWithChannelActions"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab886ff5f3dd2c0a47d3e7d3f2b72ad9d inherit pro_attribs_classSupla_1_1ElementWithChannelActions" id="r_ab886ff5f3dd2c0a47d3e7d3f2b72ad9d"><td class="memItemLeft" align="right" valign="top">
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>altWeeklyConfigFailures</b>: 2</td></tr>
+<tr class="separator:ab886ff5f3dd2c0a47d3e7d3f2b72ad9d inherit pro_attribs_classSupla_1_1ElementWithChannelActions"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7255d6a6f8207b122bba765cecb34b9 inherit pro_attribs_classSupla_1_1ElementWithChannelActions" id="r_af7255d6a6f8207b122bba765cecb34b9"><td class="memItemLeft" align="right" valign="top">
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>sentWeeklyConfigType</b>: 2</td></tr>
+<tr class="separator:af7255d6a6f8207b122bba765cecb34b9 inherit pro_attribs_classSupla_1_1ElementWithChannelActions"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1d0f747a111229fd3b21b6538950f82 inherit pro_attribs_classSupla_1_1ElementWithChannelActions" id="r_ae1d0f747a111229fd3b21b6538950f82"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="structSupla_1_1ConfigTypesBitmap.html">ConfigTypesBitmap</a>&#160;</td><td class="memItemRight" valign="bottom"><b>locallyChangedConfigTypes</b></td></tr>
 <tr class="separator:ae1d0f747a111229fd3b21b6538950f82 inherit pro_attribs_classSupla_1_1ElementWithChannelActions"><td class="memSeparator" colspan="2">&#160;</td></tr>

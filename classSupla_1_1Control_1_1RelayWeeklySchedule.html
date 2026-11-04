@@ -144,6 +144,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>iterateAlways</b> ()<
 <tr class="separator:a07ee47a57ee1f14c14bf632a0fce7611"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0afd9eb1ef6af976f9462cfa3990633" id="r_ae0afd9eb1ef6af976f9462cfa3990633"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0afd9eb1ef6af976f9462cfa3990633">canActivate</a> () const override</td></tr>
 <tr class="separator:ae0afd9eb1ef6af976f9462cfa3990633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f6e2889cd0b0c59ee4f8b16b151c854" id="r_a9f6e2889cd0b0c59ee4f8b16b151c854"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f6e2889cd0b0c59ee4f8b16b151c854">onFunctionChanged</a> () override</td></tr>
+<tr class="separator:a9f6e2889cd0b0c59ee4f8b16b151c854"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a412f48a9d86956b2f15e153621af4818" id="r_a412f48a9d86956b2f15e153621af4818"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a412f48a9d86956b2f15e153621af4818">switchToWeeklySchedule</a> () override</td></tr>
 <tr class="separator:a412f48a9d86956b2f15e153621af4818"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3992f5da297cc8e08687d1450620a200" id="r_a3992f5da297cc8e08687d1450620a200"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3992f5da297cc8e08687d1450620a200">restoreWeeklyScheduleMode</a> (bool enabled) override</td></tr>
@@ -186,8 +188,6 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>isExternallyM
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_classSupla_1_1Control_1_1NativeWeeklyScheduleController"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classSupla_1_1Control_1_1NativeWeeklyScheduleController')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classSupla_1_1Control_1_1NativeWeeklyScheduleController.html">Supla::Control::NativeWeeklyScheduleController</a></td></tr>
-<tr class="memitem:a21a13b281e3b07553eb1da4374ffd28a inherit pro_methods_classSupla_1_1Control_1_1NativeWeeklyScheduleController" id="r_a21a13b281e3b07553eb1da4374ffd28a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupla_1_1Control_1_1NativeWeeklyScheduleController.html#a21a13b281e3b07553eb1da4374ffd28a">onNativeScheduleLoaded</a> () override</td></tr>
-<tr class="separator:a21a13b281e3b07553eb1da4374ffd28a inherit pro_methods_classSupla_1_1Control_1_1NativeWeeklyScheduleController"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a268ee4b08b4cb3da8e27fc8fd6dc8b88 inherit pro_methods_classSupla_1_1Control_1_1NativeWeeklyScheduleController" id="r_a268ee4b08b4cb3da8e27fc8fd6dc8b88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupla_1_1Control_1_1NativeWeeklyScheduleController.html#a268ee4b08b4cb3da8e27fc8fd6dc8b88">onNativeScheduleLoadFailed</a> (bool alt) override</td></tr>
 <tr class="separator:a268ee4b08b4cb3da8e27fc8fd6dc8b88 inherit pro_methods_classSupla_1_1Control_1_1NativeWeeklyScheduleController"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a825700ba32a3b1953f922988c18661cb inherit pro_methods_classSupla_1_1Control_1_1NativeWeeklyScheduleController" id="r_a825700ba32a3b1953f922988c18661cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupla_1_1Control_1_1NativeWeeklyScheduleController.html#a825700ba32a3b1953f922988c18661cb">onNativeScheduleSaved</a> (bool alt, bool notify) override</td></tr>
@@ -366,6 +366,33 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetCache</b> ()</td
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classSupla_1_1Control_1_1WeeklyScheduleController.html">Supla::Control::WeeklyScheduleController</a>.</p>
+
+</div>
+</div>
+<a id="a9f6e2889cd0b0c59ee4f8b16b151c854" name="a9f6e2889cd0b0c59ee4f8b16b151c854"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f6e2889cd0b0c59ee4f8b16b151c854">&#9670;&#160;</a></span>onFunctionChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Supla::Control::RelayWeeklySchedule::onFunctionChanged </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classSupla_1_1Control_1_1WeeklyScheduleConfigHandler.html">Supla::Control::WeeklyScheduleConfigHandler</a>.</p>
 
 </div>
 </div>
